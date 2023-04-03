@@ -5,7 +5,7 @@ const { BigNumber, utils }  = require("ethers");
 describe("LiquidationOperator3", function () {
 
   // 2000
-  it("Test flash loan with 8300 USDT so that liquidate", async function () {
+  it("Test flash loan with 8300 USDC so that liquidate", async function () {
     console.log('------------------------------------------')
 
     await network.provider.request({
@@ -52,7 +52,7 @@ describe("LiquidationOperator3", function () {
 
     const profit = afterLiquidationBalance.sub(beforeLiquidationBalance);
     console.log(
-      `Profit from using 8300 USDT for the liquidation is`,
+      `Profit from using 8300 USDC for the liquidation is`,
       utils.formatEther(profit),
       "ETH"
     );
