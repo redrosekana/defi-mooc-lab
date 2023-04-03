@@ -1,7 +1,7 @@
 # Hands-on Exercise: Flash Loan based Liquidation
 
 ## Cefi Vs Defi
-งานนี้จัดทำโดย นายสุคชาธัม เซียวศิริถาวร ซึ่งเป็นปฏิบัติการนอกห้องเรียนที่เป็นส่วนหนึ่งของรายวิชา เรื่องเฉพาะทางวิศวกรรมซอฟต์แวร์ รหัสววิชา 01219496-60
+งานนี้จัดทำโดย นายสุคชาธัม เซียวศิริถาวร ซึ่งเป็นปฏิบัติการนอกห้องเรียนที่เป็นส่วนหนึ่งของรายวิชา เรื่องเฉพาะทางวิศวกรรมซอฟต์แวร์ รหัสวิชา 01219496-60
 
 ## Exercise
 In this exercise, you are expected to implement a smart contract that performs a flash loan based liquidation.
